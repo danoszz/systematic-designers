@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-universal",
+  "name": "systematic-designers",
   "license": "MIT",
-  "author": "Fabian Schultz <desk@fabianschultz.com>",
+  "author": "Tom Spel <tom@tommert.com> & Daan van der Zwaag <daan@devign.it>",
   "scripts": {
     "develop": "gatsby develop",
     "serve": "gatsby serve",
