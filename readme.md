@@ -1,4 +1,8 @@
-The foundation for Systematic Designers, a project by Tom Spel.
+![](../src/static/gh-header.png)
+
+# The foundation for Systematic Designers, a project by Tom Spel, developed by Daan van der Zwaag
+
+This repo is the beginning of a new methodology about Design Systems. 
 
 ## Features
 
@@ -28,11 +32,12 @@ The foundation for Systematic Designers, a project by Tom Spel.
 
 ```bash
 # Installation with `gatsby-cli`
-gatsby new my-site https://github.com/fabe/gatsby-universal
+npm i -g gatsy-cli
+gatsby new my-site https://github.com/danoszz/systematic-designers
 
 # Installation with `git clone`
-git clone git@github.com:fabe/gatsby-universal.git my-site
-cd my-site
+git clone https://github.com/danoszz/systematic-designers 
+cd systematic-designers
 yarn install
 
 # To develop
@@ -54,4 +59,4 @@ yarn build:favicons
 
 ## Authors
 
-Based on the work of Fabian Schultz ([@fschultz_](https://twitter.com/fschultz_)) with the [Gatsby Universial](https://www.gatsbyjs.org/starters/fabe/gatsby-universal/)). Made by [Daan van der Zwaag](https://github.com/danoszz) and Tom Spel.
+Based on the work of Fabian Schultz ([@fschultz_](https://twitter.com/fschultz_) with the [Gatsby Universial](https://www.gatsbyjs.org/starters/fabe/gatsby-universal/) template. Made by [Daan van der Zwaag](https://github.com/danoszz) and [Tom Spel]().
