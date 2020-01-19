@@ -2,18 +2,29 @@
   "title": "Home",
   "content": "intro.md",
   "gallery": [{
-    "title": "React Context",
-    "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+    "title": "Design Systems",
+    "imageInActive": "../images/gallery/design-systems_inactive@2x.png",
+    "imageActive": "../images/gallery/design-systems_active@2x.png"
   },
   {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/page-transitions.jpg"
+    "title": "The Path to Yes",
+    "imageInActive": "../images/gallery/path-to-yes_inactive@2x.png",
+    "imageActive": "../images/gallery/path-to-yes_active@2x.png"
   },
   {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/intersection-observer.jpg"
-  }]
+    "title": "Coming Soon",
+    "imageInActive": "../images/gallery/coming-soon@2x.png",
+    "imageActive": "../images/gallery/coming-soon@2x.png"
+  },
+  {
+    "title": "Coming Soon",
+    "imageInActive": "../images/gallery/coming-soon@2x.png",
+    "imageActive": "../images/gallery/coming-soon@2x.png"
+  },
+  {
+    "title": "Coming Soon",
+    "imageInActive": "../images/gallery/coming-soon@2x.png",
+    "imageActive": "../images/gallery/coming-soon@2x.png"
+  }
+]
 }
