@@ -1,8 +1,8 @@
 ![](../src/static/gh-header.png)
 
-# The foundation for Systematic Designers, a project by Tom Spel, developed by Daan van der Zwaag
+# Systematic Designers
 
-This repo is the beginning of a new methodology about Design Systems. 
+This repo is the beginning of a new methodology about Design Systems. A research project by Tom Spel, developed by Daan van der Zwaag
 
 ## Features
 
