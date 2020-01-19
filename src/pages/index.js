@@ -8,25 +8,31 @@ import IOExample from 'components/io-example';
 import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
 
+/* TODO: make modal based on JSON data from each gallery item */
+
 const Index = ({ data }) => (
   <Layout>
     <Box>
-      <Title as="h2" size="large">
+      {/* <Title as="h2" size="large">
         {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
-      </Title>
+      </Title> */}
       <Modal>
-        <video
-          src="https://i.imgur.com/gzFqNSW.mp4"
-          playsInline
-          loop
-          autoPlay
-          muted
-        />
+        <article className="modal--text">
+          <header>
+            <h2>Design Systems</h2>
+          </header>
+          <main>
+            <p>
+              A Design System is a process for digital teams, creating digital
+              products, that is based on using a central library of components.
+              A Design Systems consists out of three pilars:
+            </p>
+          </main>
+        </article>
       </Modal>
     </Box>
     <Gallery items={data.homeJson.gallery} />
-    <div style={{ height: '50vh' }} />
-    <IOExample />
+    {/* <IOExample /> */}
   </Layout>
 );
 
@@ -48,8 +54,14 @@ export const query = graphql`
       }
       gallery {
         title
-        copy
-        image {
+        imageInActive {
+          childImageSharp {
+            fluid(maxHeight: 500, quality: 90) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+        imageActive {
           childImageSharp {
             fluid(maxHeight: 500, quality: 90) {
               ...GatsbyImageSharpFluid_withWebp
