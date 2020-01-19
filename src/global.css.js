@@ -88,7 +88,16 @@ export default createGlobalStyle`
     max-width: 100%;
   }
 
+  /* Typography */
+
+  h2 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
   p {
+    font-size: 32px;
+    line-height: 42px;
     margin-bottom: 2rem;
   }
 `;

@@ -6,7 +6,7 @@ import { Container } from './gallery.css';
 const Gallery = ({ items }) => (
   <Container>
     {items.map((item, i) => (
-      <Item {...item} key={i} />
+      <Item isActive={false} {...item} key={i} />
     ))}
   </Container>
 );
