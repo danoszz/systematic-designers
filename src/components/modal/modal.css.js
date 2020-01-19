@@ -45,3 +45,17 @@ export const Close = styled.button`
   right: 0;
   color: #fff;
 `;
+
+export const ModalBody = styled.div`
+  background-color: #ae7a65;
+  min-height: 100vh;
+  border: 2px solid black;
+
+  header {
+    border-bottom: 2px solid black;
+    padding: 30px;
+  }
+  main {
+    padding: 30px;
+  }
+`;
