@@ -59,4 +59,4 @@ yarn build:favicons
 
 ## Authors
 
-Based on the work of Fabian Schultz ([@fschultz_](https://twitter.com/fschultz_) with the [Gatsby Universial](https://www.gatsbyjs.org/starters/fabe/gatsby-universal/) template. Made by [Daan van der Zwaag](https://github.com/danoszz) and [Tom Spel]().
+Based on the template [Gatsby Universial](https://www.gatsbyjs.org/starters/fabe/gatsby-universal/). Developed by [Daan van der Zwaag](https://github.com/danoszz) and designed by [Tom Spel](https://github.com/tommertius).
