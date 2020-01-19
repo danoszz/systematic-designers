@@ -1,4 +1,4 @@
-![](../src/static/gh-header.png)
+![](https://systematicdesigners.com/gh-header.png)
 
 # Systematic Designers
 
